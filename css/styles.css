@@ -135,7 +135,9 @@ a {
 
 .hero-container {
     background: var(--NAVY-BLUE, #2E2F42);
-    padding-top: 188px;
+    padding: 188px 0 ;
+
+    /*padding-top: 188px;
     padding-left: 472px;
     padding-bottom: 292px;
     padding-right: 472px;
@@ -152,7 +154,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
 }
 
 .hero-btn {
