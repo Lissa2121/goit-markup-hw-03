@@ -62,7 +62,8 @@ a {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-    padding: 188px 0 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .header-container {
@@ -295,12 +296,13 @@ a {
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     /* border-radius: 15px; */
 }
 
 .team-picture {
     padding-bottom: 32px;
-    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .team-container {
