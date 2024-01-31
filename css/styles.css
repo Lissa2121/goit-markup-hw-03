@@ -59,15 +59,13 @@ a {
 /* ======HEADER======== */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -92,8 +90,7 @@ a {
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    margin-right: 332px;
+    margin-right: auto;
     justify-content: space-between;
     
 }
@@ -117,6 +114,7 @@ a {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    display:block;
     
 }
 
@@ -164,23 +162,12 @@ a {
 /* ======HERO======== */
 
 .hero {
-    /* padding-bottom: 120px; */
-    text-align: center;
-}
-
-.hero-container {
     background: var(--NAVY-BLUE, #2E2F42);
-    align-items: center;
     padding-top: 188px;
     padding-bottom: 188px;
-  
+    }
 
-
-    /*padding-top: 188px;
-    padding-left: 472px;
-    padding-bottom: 292px;
-    padding-right: 472px;
-    /*padding: 188px 472px 292px 472px;*/
+.hero-container {
     
 }
 
@@ -195,7 +182,7 @@ a {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     /* margin-top: 188px;
     margin-right: 472px;
     margin-bottom: 292px;
@@ -302,7 +289,6 @@ a {
 }
 
 .team-picture {
-    padding-bottom: 32px;
     
 }
 
@@ -329,7 +315,6 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 /* ======================= */
@@ -360,7 +345,6 @@ a {
 }
 
 .portfolio-item {
-    padding-bottom: 48px;
 }
 
 .portfolio-picture {
@@ -380,8 +364,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    /* padding-top: 32px;
-    padding-bottom: 16px; */
 }
 
 .portfolio-item-text {
@@ -390,7 +372,6 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* padding-bottom: 32px; */
 }
 
 /* ======================= */
@@ -414,10 +395,6 @@ a {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    /* padding-top: 102px;
-    padding-bottom: 17px; */
-    /* margin-top: 101px;
-    margin-bottom: 17px; */
    
 }
 
@@ -431,11 +408,6 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 17px;
-    padding-bottom: 100px;
-    /* margin-top: 17px;
-    margin-bottom: 100px; */
-
     max-width: 264px;
 }
 
