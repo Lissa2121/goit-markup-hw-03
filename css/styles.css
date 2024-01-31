@@ -102,11 +102,9 @@ a {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
 }
 
 .header-menu-item {
-    padding: 24px 0 24px;
 }
 
 .header-menu-link {
@@ -117,6 +115,8 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
